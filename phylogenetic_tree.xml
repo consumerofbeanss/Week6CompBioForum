@@ -1,0 +1,20 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <name>Inner1</name>
+      <branch_length>0</branch_length>
+      <clade>
+        <name>sequence_1</name>
+        <branch_length>0.0</branch_length>
+      </clade>
+      <clade>
+        <name>sequence_2</name>
+        <branch_length>0.06666666666666665</branch_length>
+      </clade>
+      <clade>
+        <name>sequence_3</name>
+        <branch_length>0.06666666666666665</branch_length>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>
