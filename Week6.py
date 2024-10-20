@@ -5,7 +5,7 @@ from Bio import Phylo
 input_file = 'sample_sequences.fasta'
 alignment = AlignIO.read(input_file, 'fasta')
 
-calculator = DistanceCalculator('identity')  # using identity model for simple distance calculation
+calculator = DistanceCalculator('identity')
 distance_matrix = calculator.get_distance(alignment)
 print('Distance Matrix:', distance_matrix)
 
